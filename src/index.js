@@ -26,7 +26,7 @@ export default function App() {
         <Routes>
           {/* Routes here with paths */}
           {/* example | <Route path="/coaches/:id" element={<CoachPage/>}/> */}
-          <Route path="/" element={<div><p>Hello, World!</p></div>}></Route>
+          <Route path="/" element={<div><p>Hello, World! Test</p></div>}></Route>
         </Routes>
         {/* Footer */}
       </Provider>
