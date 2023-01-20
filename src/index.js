@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import TopNav from './components/topNav';
 
 // const container = document.getElementById('root');
 
@@ -22,11 +23,12 @@ export default function App() {
   return (
     <BrowserRouter>
       <Provider store={store}>
-        {/* Nav */}
+        <TopNav/>
         <Routes>
           {/* Routes here with paths */}
           {/* example | <Route path="/coaches/:id" element={<CoachPage/>}/> */}
-          <Route path="/" element={<div><p>Hello, World! Test</p></div>}></Route>
+          <Route path="/" element={<div><h1>I love babe :)</h1></div>}></Route>
+          <Route path="/" element={<div><h1>I love babe :)</h1></div>}></Route>
         </Routes>
         {/* Footer */}
       </Provider>
