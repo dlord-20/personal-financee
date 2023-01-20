@@ -4,7 +4,7 @@ export default function TopNav() {
 
     return (
         <div>
-            <p>Hello</p>
+            <p>Top Nav Component</p>
         </div>
     );
 }

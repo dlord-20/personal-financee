@@ -10,6 +10,7 @@ import {
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import TopNav from './components/topNav';
+import Home from './pages/home';
 
 // const container = document.getElementById('root');
 
@@ -27,8 +28,8 @@ export default function App() {
         <Routes>
           {/* Routes here with paths */}
           {/* example | <Route path="/coaches/:id" element={<CoachPage/>}/> */}
-          <Route path="/" element={<div><h1>I love babe :)</h1></div>}></Route>
-          <Route path="/" element={<div><h1>I love babe :)</h1></div>}></Route>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/nicole" element={<div><h1>I love babe :)</h1></div>}></Route>
         </Routes>
         {/* Footer */}
       </Provider>
